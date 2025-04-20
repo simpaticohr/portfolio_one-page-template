@@ -1,5 +1,5 @@
 {
-  "name": "general-frontend-boilerplate",
+  "name": "simpaticohrconsultancy",
   "description": "Project template based on Gulp task runner",
   "devDependencies": {
     "@babel/core": "^7.3.3",
