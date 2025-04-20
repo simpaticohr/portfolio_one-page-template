@@ -11,12 +11,9 @@
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
-            <li><a href="process.html">Process</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="testimonials.html">Testimonials</a></li>
-            <li><a href="contact.html">Contacts</a></li>
+            <li><a href="candidate.html">Candidate Registration</a></li>
+            <li><a href="employer.html">Employer Registration</a></li>
         </ul>
     </nav>
 
@@ -32,19 +29,7 @@
         <p>Simpatico HR Consultancy, based in Perintalmanna, has been providing reliable and efficient manpower consultancy services since 2013. We specialize in connecting top-tier talent with companies globally, especially across Europe and the Western region.</p>
     </section>
 
-    <!-- Services Section -->
-    <section id="services">
-        <h3>Our Services</h3>
-        <ul>
-            <li><strong>Manpower Recruitment</strong> (Skilled, Semi-skilled, Unskilled)</li>
-            <li><strong>International Job Placements</strong></li>
-            <li><strong>HR Consultancy & Compliance</strong></li>
-            <li><strong>CV Screening & Shortlisting</strong></li>
-            <li><strong>Employer-Candidate Coordination</strong></li>
-        </ul>
-    </section>
-
-    <!-- Recruitment Process Outsourcing (RPO) Section -->
+    <!-- RPO Section -->
     <section id="rpo">
         <h3>Recruitment Process Outsourcing (RPO)</h3>
         <p>Our RPO services are tailored for businesses across Europe and the Western region. We act as your extended HR arm, handling end-to-end recruitment – from sourcing and screening to onboarding – helping you reduce hiring costs and time-to-fill.</p>
@@ -71,5 +56,13 @@
             <a href="https://www.linkedin.com/company/simpatico-manpower/">LinkedIn</a>
         </p>
     </footer>
+
+    <!-- Dark Mode Toggle -->
+    <button onclick="toggleDarkMode()" style="position:fixed;bottom:20px;right:20px;padding:10px 15px;background:#001f3f;color:#fff;border:none;border-radius:5px;cursor:pointer;">Toggle Dark Mode</button>
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
 </body>
 </html>
